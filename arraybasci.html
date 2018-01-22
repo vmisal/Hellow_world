@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Aerry basci</title>
+    <script type="text/javascript">
+
+    var array=['array','apple','banna',{obj1:'object1',obj2:'object2'}]
+    array.forEach(function(index,item,array)
+      {
+        console.log(index.obj1);
+      }
+  );
+  var a=[{name:1,id:2},{name:'hi',id:'by'}]
+  a.forEach(function(index,array,item)
+{
+  console.log(index.name);
+});
+
+var news=[{
+  pune:{
+    headline:"jahdakjfwjkbqjeb"
+  },mumbai:
+  {
+    headline:"dfdffadsad"
+  }
+}]
+
+news.forEach(function(index)
+{
+  console.log(index.pune.headline);
+});
+  var array1=['hello','by','print','end'];
+  console.log("array of array1:-"+array1);
+  array1.push('ok');
+  console.log("array of firstr:-"+array1);
+  array1.pop();
+  array1.pop();
+  counter=1;
+  console.log("array of firstr:-"+array1);
+    </script>
+  </head>
+  <body>
+    <button type="button" name="button" onclick="">Please Click me</button>
+    <script type="text/javascript">
+      function fun()
+      {
+        var obj={
+          key:'helo',
+          a:[10,20,30]
+        };
+      console.log(obj.a[2]);
+      }
+      fun();
+    </script>
+  </body>
+</html>
